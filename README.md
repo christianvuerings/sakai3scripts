@@ -1,4 +1,4 @@
-!http://3akai.sakaiproject.org/dev/_images/sakai_logo_index.png!
+![Sakai3!](http://3akai.sakaiproject.org/dev/_images/sakai_logo_index.png)
 
 Sakai3scripts - Scripts for the Sakai 3 User Experience project
 ================================
