@@ -5,7 +5,7 @@ source ./config.sh
 
 # Kill Java
 echo "// Kill all the java processes"
-killall java
+killall -9 java
 
 # Remove the repository folder
 echo "// Clean the maven repository folders"
@@ -31,6 +31,14 @@ git fetch ieb
 
 echo "// Merge ieb"
 git merge ieb/master
+
+echo "// Push to your master"
+git push origin master
+
+echo "// Update the talkscam branch"
+git co talkscam
+git merge master
+git push origin talkscam
 
 echo "// Go To osgikernel"
 cd ${SAKAI3_OSGIKERNEL}
