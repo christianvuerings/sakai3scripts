@@ -25,7 +25,6 @@ SAKAI3_REPO_CAMTOOLS_MAIN_CONTRIBUTOR="simong"
 SAKAI3_REPO_CAMTOOLS_MAIN="git://github.com/"${SAKAI3_REPO_CAMTOOLS_MAIN_CONTRIBUTOR}"/camtools.git"
 
 # Files
-SAKAI3_FSRESOURCE=${SAKAI3_ROOT}"/org.apache.sling.fsresource-0.9.3-SNAPSHOT.jar"
 SAKAI3_LOG_NAKAMURA=${SAKAI3_LOG}"/nakamura.log"
 
 # Jar
