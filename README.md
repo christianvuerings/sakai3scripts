@@ -19,13 +19,17 @@ Contents
 
 * config.sh: Set up configuration file. All other files include it.
 * createusers.sh: Create several dummy users.
-* sakaibackup.sh:: Back-up your latest Nakamura jar file and your jackrabbit folder (which contains all the JCR content).
+* sakaibackup.sh: Back-up your latest Nakamura jar file and your jackrabbit folder (which contains all the JCR content).
+* sakaibuildcamtools.sh: Build the Camtools version of Nakamura (This includes things like events)
 * sakaifsresource.sh: Set up the fsresource bundle which allows you to keep the front and back-end separate.
 * sakailogging.sh: Start logging of the Nakamura instance.
 * sakaiprototypefetch.sh: Fetch all the prototype branches and merge them in.
+* sakairemovetmp.sh: Remove all the files in the 3akai-ux folder have a ".tmp_" extension
 * sakaisetup.sh: A setup file that would download all the necessary files (such as the fsresource jar).
 * sakaistart.sh: Start Sakai3.
+* sakaistartcamtools.sh: Start the camtools version of Sakai3.
 * sakaiupdate.sh: Completely update Sakai3 (both front and back-end) and start the server + logging.
+* sakaiupdatecamtools.sh: Update the camtools version of Sakai3
 * sakaiupdateux.sh: Update the Sakai3 front-end.
 * slingremove.sh: Remove the sling folder.
 
