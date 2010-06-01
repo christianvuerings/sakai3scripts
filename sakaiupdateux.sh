@@ -8,3 +8,4 @@ cd ${SAKAI3_UX}
 git checkout master
 git fetch oszkarnagy
 git merge oszkarnagy/master
+#mvn clean install -Predeploy

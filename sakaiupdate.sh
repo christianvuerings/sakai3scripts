@@ -46,12 +46,10 @@ git merge ieb/master
 echo "// Push to your master"
 git push origin master
 
-echo "// Go To osgikernel"
-cd ${SAKAI3_OSGIKERNEL}
-
-echo "// Build K2"
-mvn clean install
-echo "// Build K2 Finished"
+echo "// Build Nakamura"
+#mvn clean install
+mvn clean install -Dmaven.test.skip=true
+echo "// Build Nakamura Finished"
 
 # Update 3akai-ux
 cd ${SAKAI3_SCRIPTS}
