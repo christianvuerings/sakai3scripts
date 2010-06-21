@@ -31,9 +31,9 @@ cd $SAKAI3_TARGET
 SAKAI3_JAR_PART=`ls | grep -i ".jar" | grep -v "sources"`
 SAKAI3_JAR=${SAKAI3_TARGET}"/"${SAKAI3_JAR_PART}
 
-cd $SAKAI3_CAMTOOLS_TARGET
-SAKAI3_CAMTOOLS_JAR_PART=`ls | grep -i ".jar" | grep -v "sources"`
-SAKAI3_CAMTOOLS_JAR=${SAKAI3_CAMTOOLS_TARGET}"/"${SAKAI3_CAMTOOLS_JAR_PART}
+#cd $SAKAI3_CAMTOOLS_TARGET
+#SAKAI3_CAMTOOLS_JAR_PART=`ls | grep -i ".jar" | grep -v "sources"`
+#SAKAI3_CAMTOOLS_JAR=${SAKAI3_CAMTOOLS_TARGET}"/"${SAKAI3_CAMTOOLS_JAR_PART}
 
 # The port where you want to run Sakai3 on
 SAKAI3_PORT="8080"
