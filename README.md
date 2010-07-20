@@ -33,5 +33,5 @@ Contents
 * sakaiupdateux.sh: Update the Sakai3 front-end.
 * slingremove.sh: Remove the sling folder.
 
-[3akaiux]:			http://github.com/oszkarnagy/3akai-ux
+[3akaiux]:			http://github.com/sakaiproject/3akai-ux
 [openexperiments]:	http://github.com/ieb/open-experiments

@@ -6,6 +6,6 @@ source config.sh
 echo "// Update the ux project"
 cd ${SAKAI3_UX}
 git checkout master
-git fetch oszkarnagy
-git merge oszkarnagy/master
+git fetch sakai
+git merge sakai/master
 #mvn clean install -Predeploy
