@@ -37,11 +37,11 @@ cd $SAKAI3_OPEN_EXPERIMENTS
 echo "// Switch to the master branch"
 git checkout master
 
-echo "// Fetch ieb"
-git fetch ieb
+echo "// Fetch sakai"
+git fetch sakai
 
-echo "// Merge ieb"
-git merge ieb/master
+echo "// Merge sakai"
+git merge sakai/master
 
 echo "// Push to your master"
 git push origin master

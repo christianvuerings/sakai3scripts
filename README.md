@@ -34,4 +34,4 @@ Contents
 * slingremove.sh: Remove the sling folder.
 
 [3akaiux]:			http://github.com/sakaiproject/3akai-ux
-[openexperiments]:	http://github.com/ieb/open-experiments
+[openexperiments]:	http://github.com/sakaiproject/nakamura
